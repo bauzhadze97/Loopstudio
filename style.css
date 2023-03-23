@@ -80,4 +80,14 @@ main header section .overlay .closebtn {
   top: 20px;
   right: 45px;
   font-size: 60px;
+}
+main header .herotext {
+  border: 2px solid #FFFFFF;
+  margin: 50% 24px 0 24px;
+}
+main header .herotext p {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 26px 24px 26px 24px;
 }/*# sourceMappingURL=style.css.map */

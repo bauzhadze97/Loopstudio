@@ -79,5 +79,15 @@ main {
                   }
               }
         }
+        & .herotext{
+            border: 2px solid #FFFFFF;
+            margin: 50% 24px 0 24px;
+            & p{
+                font-size: 40px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                padding: 26px 24px 26px 24px;
+            }
+        }
     }
 }
