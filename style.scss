@@ -170,6 +170,14 @@ main {
                 margin-right: 16px;
             }
         }
+        & .copyright{
+            mix-blend-mode: normal;
+            opacity: 0.5;
+            color: #FFFFFF;
+            font-size: 15px;
+            text-align: center;
+            padding:0 0 56px 0;
+        }
     }
 
 }
