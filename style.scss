@@ -135,6 +135,14 @@ main {
                 max-width: 127px;
             }
         }
+        & button {
+            border: 1px solid #000000;
+            padding: 13px 43px;
+            background-color: transparent;
+            margin: 32px 109px;
+            cursor: pointer;
+        }
     }
+    
 
 }
