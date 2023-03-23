@@ -94,10 +94,21 @@ main {
             & .aboutimage{
                 background-image: url(./images/mobile/image-interactive.jpg);
                 background-size: 327px 224px;
+                background-repeat: no-repeat;
                 height: 224px;
             }
             & .abouttext{
-                
+                padding: 50px 0 96px 0;
+                & h1{
+                    font-size: 32px;
+                    text-transform: uppercase;
+                    text-align: center;
+                    padding: 0 0 16px 0;
+                }
+                & p{
+                    font-size: 15px;
+                    text-align: center;
+                }
             }
     }
 
