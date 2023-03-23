@@ -163,4 +163,12 @@ main footer .footermenu a {
   flex-direction: column;
   padding-bottom: 16px;
   cursor: pointer;
+}
+main footer .social {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 16px 0;
+}
+main footer .social img {
+  margin-right: 16px;
 }/*# sourceMappingURL=style.css.map */

@@ -162,6 +162,14 @@ main {
                 cursor: pointer;
             }
         }
+        & .social{
+            display: flex;
+            justify-content: center;
+            margin: 50px 0 16px 0;
+            & img{
+                margin-right: 16px;
+            }
+        }
     }
 
 }
