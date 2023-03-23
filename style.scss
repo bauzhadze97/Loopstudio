@@ -1,5 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Josefin Sans';
+}
+
+main {
+    width: 100%;
+    & header {
+        background-image: url(./images/mobile/image-hero.jpg);
+        background-size: 100% 650px;
+        background-repeat: no-repeat;
+        height: 650px;
+     
+        & section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 40px 24px 0 24px;
+            & .logo{
+                width: 144px;
+                height: 24px;
+            }
+            & .nav{
+                color: #ffffff;
+                cursor: pointer;
+                font-size: 30px;
+            }
+            & .overlay {
+                height: 0%;
+                width: 100%;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                background-color: rgb(0,0,0);
+                background-color: rgba(0,0,0, 1);
+                overflow-x: hidden;
+                transition: 0.5s;
+                & .logo{
+                    position: absolute;
+                    top: 60px;
+                    left: 35px;
+                }
+                & .overlay-content {
+                    position: relative;
+                    top: 25%;
+                    width: 100%;
+                    text-align: left;
+                    margin-top: 30px;
+                    font-family: 'Josefin Sans';
+                    font-size: 24px;
+                    text-transform: uppercase;
+                    padding: 0 0 0 30px;
+                    color: #ffffff;
+                  }
+                  & a {
+                    padding: 8px;
+                    text-decoration: none;
+                    font-size: 36px;
+                    color: #ffffff;
+                    display: block;
+                    transition: 0.3s;
+                  }
+                  & a:hover, .overlay a:focus {
+                    color: #f1f1f1;
+                  }
+                  & .closebtn {
+                    position: absolute;
+                    top: 20px;
+                    right: 45px;
+                    font-size: 60px;
+                  }
+              }
+        }
+    }
 }
