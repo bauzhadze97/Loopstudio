@@ -209,7 +209,12 @@ main footer .copyright {
   main header section nav a {
     color: #FFFFFF;
     font-size: 15px;
-    padding: 0 16px 0 0;
+    margin: 0 16px 0 0;
+    padding: 0 0 0 0;
+    text-decoration: none;
+  }
+  main header section nav a:hover {
+    border-bottom: 1px solid #FFFFFF;
   }
   main header .herotext {
     margin: 130px 40% 0 10%;
@@ -246,12 +251,17 @@ main footer .copyright {
   }
   main .contenttitle button {
     display: block;
-    background-color: #000000;
+    background-color: transparent;
     border: 1px solid #000000;
     padding: 13px 43px;
     font-size: 14px;
-    color: #FFFFFF;
+    color: #000000;
     cursor: pointer;
+  }
+  main .contenttitle button:hover {
+    background-color: #000000;
+    border: 1px solid #000000;
+    color: #FFFFFF;
   }
   main .content {
     display: grid;
@@ -290,5 +300,31 @@ main footer .copyright {
   }
   main .content button {
     display: none;
+  }
+  main footer {
+    display: grid;
+    grid-template-columns: 380px 380px;
+    justify-content: space-around;
+  }
+  main footer .footerlogo {
+    margin: 50px 10% 0 10%;
+  }
+  main footer .footermenu {
+    grid-area: 2;
+    margin: 0 0 0 10%;
+  }
+  main footer .footermenu a {
+    display: inline-flex;
+    margin: 0 10px 0 0;
+    padding: 0;
+  }
+  main footer .footermenu a:hover {
+    border-bottom: 2px solid #FFFFFF;
+  }
+  main footer .social {
+    margin: 50px 10% 10% 10%;
+  }
+  main footer .social img {
+    cursor: pointer;
   }
 }/*# sourceMappingURL=style.css.map */
