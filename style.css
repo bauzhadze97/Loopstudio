@@ -36,6 +36,9 @@ main header section .nav {
   cursor: pointer;
   font-size: 30px;
 }
+main header section nav {
+  display: none;
+}
 main header section .overlay {
   height: 0%;
   width: 100%;
@@ -193,6 +196,9 @@ main footer .copyright {
   main header section .nav {
     display: none;
   }
+  main header section nav {
+    display: block;
+  }
   main header section nav a {
     color: #FFFFFF;
     font-size: 15px;
@@ -204,5 +210,27 @@ main footer .copyright {
   main header .herotext p {
     font-size: 72px;
     padding: 40px;
+  }
+  main .about {
+    margin: 10% 0 0 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  main .about .aboutimage {
+    background-image: url(./images/desktop/image-interactive.jpg);
+    background-size: 731px 500px;
+    height: 500px;
+  }
+  main .about .abouttext {
+    background-color: #FFFFFF;
+    margin: -20% 10% 0 45%;
+  }
+  main .about .abouttext h1 {
+    font-size: 48px;
+    padding: 0 0 10% 10%;
+  }
+  main .about .abouttext p {
+    padding: 0 0 10% 15%;
   }
 }/*# sourceMappingURL=style.css.map */
