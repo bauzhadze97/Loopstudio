@@ -123,6 +123,9 @@ main .contenttitle {
   align-items: center;
   margin: 0 0 48px 0;
 }
+main .contenttitle button {
+  display: none;
+}
 main .content {
   width: 100%;
 }
@@ -232,5 +235,18 @@ main footer .copyright {
   }
   main .about .abouttext p {
     padding: 0 0 10% 15%;
+  }
+  main .contenttitle {
+    margin: 0 10% 48px 10%;
+    justify-content: space-between;
+  }
+  main .contenttitle button {
+    display: block;
+    background-color: #000000;
+    border: 1px solid #000000;
+    padding: 13px 43px;
+    font-size: 14px;
+    color: #FFFFFF;
+    cursor: pointer;
   }
 }/*# sourceMappingURL=style.css.map */
