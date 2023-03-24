@@ -264,6 +264,12 @@ main {
                 max-width: 256px;
                 max-height: 450px;
                 margin: 0 24px 24px 24px;
+                &:hover{
+                    position: relative;
+                    width: 256px;
+                    height: 450px;
+                    opacity: 0.5;
+                }
                 & .mobilepicture{
                     display: none;
                 }

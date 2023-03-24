@@ -264,6 +264,12 @@ main footer .copyright {
     max-height: 450px;
     margin: 0 24px 24px 24px;
   }
+  main .content .contentitem:hover {
+    position: relative;
+    width: 256px;
+    height: 450px;
+    opacity: 0.5;
+  }
   main .content .contentitem .mobilepicture {
     display: none;
   }
