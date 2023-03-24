@@ -257,7 +257,7 @@ main footer .copyright {
     display: grid;
     grid-template-columns: 256px 256px 256px 256px;
     gap: 30px;
-    margin: 0 10%;
+    justify-content: center;
   }
   main .content .contentitem {
     max-width: 256px;

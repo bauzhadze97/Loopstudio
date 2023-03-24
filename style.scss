@@ -259,7 +259,7 @@ main {
             display: grid;
             grid-template-columns: 256px 256px 256px 256px;
             gap: 30px;
-            margin: 0 10%;
+            justify-content: center;
             & .contentitem{
                 max-width: 256px;
                 max-height: 450px;
