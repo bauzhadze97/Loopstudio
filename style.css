@@ -9,6 +9,7 @@ body {
   width: 100vw;
   height: 100vh;
   font-family: "Josefin Sans";
+  overflow-x: hidden;
 }
 
 main {
@@ -179,4 +180,29 @@ main footer .copyright {
   font-size: 15px;
   text-align: center;
   padding: 0 0 56px 0;
+}
+
+@media screen and (min-width: 1440px) {
+  main header {
+    width: 100%;
+    background-image: url(./images/desktop/image-hero.jpg);
+  }
+  main header section {
+    padding: 40px 10% 0 10%;
+  }
+  main header section .nav {
+    display: none;
+  }
+  main header section nav a {
+    color: #FFFFFF;
+    font-size: 15px;
+    padding: 0 16px 0 0;
+  }
+  main header .herotext {
+    margin: 130px 40% 0 10%;
+  }
+  main header .herotext p {
+    font-size: 72px;
+    padding: 40px;
+  }
 }/*# sourceMappingURL=style.css.map */

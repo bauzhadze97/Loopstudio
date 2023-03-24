@@ -8,6 +8,7 @@ body {
     width: 100vw;
     height: 100vh;
     font-family: 'Josefin Sans';
+    overflow-x: hidden;
 }
 
 main {
@@ -180,4 +181,33 @@ main {
         }
     }
 
+}
+@media screen and (min-width:1440px){
+    main{
+        & header{
+            width:100%;
+            background-image: url(./images/desktop/image-hero.jpg);
+            & section {
+                padding: 40px 10% 0 10%;
+                & .nav {
+                    display: none;
+                }
+                & nav {
+                    & a {
+                        color: #FFFFFF;
+                        font-size: 15px;
+                        padding: 0 16px 0 0;
+                    }
+                }
+            }
+            & .herotext{
+                margin: 130px 40% 0 10%;
+                & p {
+                    font-size: 72px;
+                    padding: 40px;
+                }
+            }
+        }
+    }
+    
 }
