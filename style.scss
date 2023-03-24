@@ -265,10 +265,15 @@ main {
                 max-height: 450px;
                 margin: 0 24px 24px 24px;
                 &:hover{
+                  cursor: pointer;
+                  & .desktoppicture{
+                    opacity: 0.75;
+                  }
+                  & .itemtitle{
                     position: relative;
-                    width: 256px;
-                    height: 450px;
-                    opacity: 0.5;
+                    color: #000000;
+                    opacity: 1;
+                  }
                 }
                 & .mobilepicture{
                     display: none;

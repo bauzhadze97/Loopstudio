@@ -265,10 +265,15 @@ main footer .copyright {
     margin: 0 24px 24px 24px;
   }
   main .content .contentitem:hover {
+    cursor: pointer;
+  }
+  main .content .contentitem:hover .desktoppicture {
+    opacity: 0.75;
+  }
+  main .content .contentitem:hover .itemtitle {
     position: relative;
-    width: 256px;
-    height: 450px;
-    opacity: 0.5;
+    color: #000000;
+    opacity: 1;
   }
   main .content .contentitem .mobilepicture {
     display: none;
