@@ -192,6 +192,13 @@ main {
     }
 
 }
+@media screen and (min-width:390px){
+    main {
+        & .about{
+            margin: 96px 10% 0 10%;
+        }
+    }
+}
 @media screen and (min-width:1440px){
     main{
         & header{
